@@ -1,10 +1,13 @@
-[https://velog.io/@goyou123/LUA]
-[https://wariua.github.io/lua-manual/5.4/manual.html]
-[https://eslife.tistory.com/1036?category=841532]
-[https://eslife.tistory.com/1034?category=841532]
+### Links:
+[https://velog.io/@goyou123/LUA]  
+[https://wariua.github.io/lua-manual/5.4/manual.html]  
+[https://eslife.tistory.com/1036?category=841532]  
+[https://eslife.tistory.com/1034?category=841532]  
+[https://roboticist.tistory.com/576]  
+[http://egloos.zum.com/sweeper/v/2821444]  
+  
 
-
-메모:
+### 메모:
 - 문(statement)과 식(expression)
 - 테이블, 연관배열, 해시맵, 해시테이블, 딕셔너리(사전), 맵
 - 루아의 할당문
@@ -20,8 +23,16 @@
 - 함수는 한 번에 여러 값을 반환할 수 있다.
 - 청크와 블록
 - 메타테이블과 메타메서드
-- 레코드와 연관 배열
+- 테이블: 배열 형식 접근과 레코드 형식 접근
 -> a["name"]: 배열 형식
 -> a.name: 레코드 형식
 -> 이 둘 모두를 루아에서는 지원한다.
-- pairs()과 ipairs() 함수
+- 반복자: pairs()과 ipairs() 함수
+- 루아에서의 테이블: 다른 언어의 무엇과 유사한가?
+-> 자바스크립트의 객체, C++의 map, 파이썬의 dict
+  
+### TODO:
+- 라이브러리 함수들
+- 코루틴
+- 메타 테이블, 메타 메서드
+- C/C++ 프로그램에 내장 
