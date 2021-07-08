@@ -5,6 +5,7 @@
 [https://eslife.tistory.com/1034?category=841532]  
 [https://roboticist.tistory.com/576]  
 [http://egloos.zum.com/sweeper/v/2821444]  
+[http://occamsrazr.net/tt/301]  
   
 
 ### 메모:
@@ -32,10 +33,13 @@
 -> 자바스크립트의 객체, C++의 map, 파이썬의 dict
 - 루아와 다른 언어의 비교: Python, Javascript
 - 루아의 dofile(), require(): 자바스크립트에도 require()가 있다.
+- 루아에서 함수 인수가 문자열 하나인 경우에는 괄호를 생략할 수 있다.
+    - 예) `print "Hello"`
   
 ### TODO:
-- 라이브러리 함수들
+- 모듈: require() 함수에는 반드시 (소스)파일 이름을 넘겨야 하는가?
+- 테이블, 메타 테이블, 메타 메서드
 - 코루틴
-- 메타 테이블, 메타 메서드
+- 라이브러리 함수들
 - C/C++ 프로그램에 내장 
-- 모듈
+- 자바스크립트 객체와 Lua 테이블의 비교
